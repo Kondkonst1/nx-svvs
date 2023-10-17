@@ -72,5 +72,5 @@
       "style": "scss"
     }
   },
-  "defaultProject": "mynxapp"
+  "defaultProject": "frontend/client/mynxapp"
 }

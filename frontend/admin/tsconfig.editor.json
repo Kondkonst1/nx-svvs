@@ -1,8 +1,6 @@
 {
   "extends": "./tsconfig.json",
-  "include": [
-    "frontend/client/src/**/*.ts"
-  ],
+  "include": ["src/**/*.ts"],
   "compilerOptions": {
     "types": ["jest", "node"]
   }

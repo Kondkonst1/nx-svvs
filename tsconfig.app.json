@@ -4,7 +4,15 @@
     "outDir": "./dist/out-tsc",
     "types": []
   },
-  "files": ["src/main.ts"],
-  "include": ["src/**/*.d.ts"],
-  "exclude": ["jest.config.ts", "src/**/*.test.ts", "src/**/*.spec.ts"]
+  "files": [
+    "frontend/client/src/main.ts"
+  ],
+  "include": [
+    "frontend/client/src/**/*.d.ts"
+  ],
+  "exclude": [
+    "jest.config.ts",
+    "frontend/client/src/**/*.test.ts",
+    "frontend/client/src/**/*.spec.ts"
+  ]
 }

@@ -6,11 +6,13 @@
     "target": "es2016",
     "types": ["jest", "node"]
   },
-  "files": ["src/test-setup.ts"],
+  "files": [
+    "frontend/client/src/test-setup.ts"
+  ],
   "include": [
     "jest.config.ts",
-    "src/**/*.test.ts",
-    "src/**/*.spec.ts",
-    "src/**/*.d.ts"
+    "frontend/client/src/**/*.test.ts",
+    "frontend/client/src/**/*.spec.ts",
+    "frontend/client/src/**/*.d.ts"
   ]
 }
